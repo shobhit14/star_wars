@@ -1,0 +1,72 @@
+.link-resident {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.search-box {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.pagination {
+    margin-left: 38%;
+    margin-top: 4%;
+}
+
+.popup {
+    position: fixed;
+    padding: 0px;
+    width: 90%;
+    left: 5%;
+    margin-left: 0px;
+    top: 12%;
+    background: #FFF;
+    border: 1px solid black;
+    z-index: 20;
+}
+
+.popup:after {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -2;
+}
+
+.popup:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFF;
+    z-index: -1;
+}
+
+.close-right {
+    float: right;
+    margin: 10px;
+}
+
+.img-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.img-no-data {
+    margin-left: 28%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.img-popup-loading {
+    margin-left: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
